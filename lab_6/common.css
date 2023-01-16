@@ -55,7 +55,8 @@ header {
     background: #624C91;
 }
 
-header ul, header ul>li>a {
+header ul,
+header ul>li>a {
     gap: 28px;
     display: flex;
     align-items: center;
@@ -64,6 +65,17 @@ header ul, header ul>li>a {
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
+}
+
+.link-head {
+    border: none;
+    padding: 0;
+}
+
+.link-head span {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+    font-weight: 500;
 }
 
 main {
